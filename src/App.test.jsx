@@ -5,5 +5,5 @@ import App from './App';
 test('renders Apartment Expenses heading', () => {
   render(<App />);
   const headingElement = screen.getByText(/Apartment Expenses/i);
-  expect(headingElement).toBeTruthy();
+  expect(headingElement).toBeInTheDocument();
 });
