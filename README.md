@@ -78,6 +78,12 @@ Run the complete test suite once:
 npm run test:run
 ```
 
+Run the test coverage report:
+
+```bash
+npm run test:coverage
+```
+
 Tests use:
 
 * Vitest for test execution.
@@ -93,6 +99,7 @@ Before considering a change complete, run:
 ```bash
 npm run lint
 npm run test:run
+npm run test:coverage
 npm run build
 ```
 
@@ -480,6 +487,7 @@ When implementing a change:
 ```bash
 npm run lint
 npm run test:run
+npm run test:coverage
 npm run build
 ```
 
