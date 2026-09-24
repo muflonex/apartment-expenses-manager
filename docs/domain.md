@@ -26,7 +26,17 @@ The initial model is:
 }
 ```
 
-## Expense fields
+### Fields
+
+| Field | Type | Rules |
+|---|---|---|
+| id | number | Unique identifier |
+| description | string | Human-readable description |
+| category | string | Must be a supported category |
+| amount | number | Must be greater than 0 |
+| date | string | ISO `YYYY-MM-DD` |
+| recurring | boolean | Indicates whether the expense repeats |
+| frequency | string/null | Required for recurring expenses |
 
 ### id
 Unique identifier of the expense.
@@ -61,7 +71,7 @@ Initial categories:
 ### amount
 Monetary amount of the expense.
 
-The amount must be a positive number or zero.
+The amount must be a positive number.
 
 ### date
 Date associated with the expense.
@@ -87,7 +97,10 @@ Initial supported values:
 - quarterly
 - yearly
 
-For non-recurring expenses, frequency is null.
+Rules:
+
+- If `recurring === true`, `frequency` must be one of the supported frequencies.
+- If `recurring === false`, `frequency` must be `null`.
 
 ## Domain rules
 
@@ -146,13 +159,9 @@ calculateExpensesByCategory(expenses)
 
 Groups or summarizes expenses according to their category.
 
-### Monthly expenses
+### Monthly total
 
-```js
-calculateMonthlyTotal(expenses, month)
-```
-
-Returns the total expenses associated with the requested month.
+The monthly total includes expenses whose date belongs to the requested month.
 
 ### MVP limitations
 

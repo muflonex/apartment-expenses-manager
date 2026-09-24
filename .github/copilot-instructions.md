@@ -8,6 +8,17 @@ expenses associated with an apartment.
 The application allows users to register, view, filter and summarize
 apartment-related expenses.
 
+## General guidelines
+
+Skills are to be used for repeatable procedures.
+
+Agents are autonomous roles responsible for a bounded phase of the SDD
+workflow and potentially modifying repository artifacts.
+
+The Orchestrator coordinates agents but does not implement.
+
+Global instructions are rules that apply to every task.
+
 ## Technology
 
 - JavaScript
