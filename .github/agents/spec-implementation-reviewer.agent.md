@@ -43,3 +43,9 @@ Your job is to compare the current implementation against the spec and report mi
 ## Conclusion
 
 - ...
+
+## Gate
+
+- Result: `PASS` when no blocking spec mismatch remains; otherwise `BLOCKED`
+- Evidence: ...
+- Next phase: completed flow when `PASS`, or the owning implementation/spec phase when `BLOCKED`

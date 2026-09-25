@@ -68,4 +68,10 @@ Persist the plan using this structure in `plan-tecnico.md`:
 2. ...
 3. ...
 
+## Gate
+
+- Result: `PASS` when `plan-tecnico.md` is complete and unblocked; otherwise `BLOCKED`
+- Evidence: ...
+- Next phase: the applicable implementation agent
+
 In your final response, mention the path of the `plan-tecnico.md` file you created or updated and summarize any blockers.

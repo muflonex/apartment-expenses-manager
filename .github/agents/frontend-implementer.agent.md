@@ -132,3 +132,9 @@ When completing a task, briefly report:
 2. Which files were changed.
 3. Which tests were added or modified.
 4. The result of the validation commands.
+
+## Gate
+
+- Result: `PASS` when the defined frontend scope and focused validation are complete; otherwise `BLOCKED`
+- Evidence: ...
+- Next phase: `@spec-test-implementer`

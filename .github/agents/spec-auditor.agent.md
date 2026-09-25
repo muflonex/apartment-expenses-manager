@@ -49,3 +49,9 @@ Do not use alternative verdicts such as `PASS`, `APPROVED`,
 ## Recommended Next Step
 
 - ...
+
+## Gate
+
+- Result: `PASS` when the verdict is `READY`; otherwise `BLOCKED`
+- Evidence: ...
+- Next phase: `@spec-to-tech-plan` when `READY`, or spec refinement when `NOT READY`

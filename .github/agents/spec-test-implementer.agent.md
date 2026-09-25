@@ -138,3 +138,9 @@ When completing a task, briefly report:
 4. Production defects found and fixed, if any.
 5. Coverage result.
 6. Validation results.
+
+## Gate
+
+- Result: `PASS` when the required tests and coverage validation pass; otherwise `BLOCKED`
+- Evidence: ...
+- Next phase: `@spec-implementation-reviewer`

@@ -19,6 +19,10 @@ The Orchestrator coordinates agents but does not implement.
 
 Global instructions are rules that apply to every task.
 
+The canonical phase order and gate contract for spec-driven work are defined
+in `docs/sdd-workflow.md`. Agents must follow that document and report its
+required `PASS`, `BLOCKED`, or `NOT APPLICABLE` gate.
+
 ## Technology
 
 - JavaScript

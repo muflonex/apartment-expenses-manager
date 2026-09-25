@@ -235,6 +235,9 @@ The frontend implementation phase is only used when the specification contains a
 
 The orchestrator coordinates these phases when the complete workflow is required.
 
+The complete phase, handoff, and gate contract is defined in
+`docs/sdd-workflow.md`.
+
 Each specification is stored under:
 
 ```text
