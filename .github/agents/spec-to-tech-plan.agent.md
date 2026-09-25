@@ -17,7 +17,7 @@ Your job is to transform one approved spec into an implementation plan aligned w
 - If the spec is still ambiguous, report the ambiguity as a blocker.
 - Do not modify the source spec to resolve ambiguity.
 - Do not overwrite the spec file itself.
-- Write or update the technical plan in `plan-tecnico.md` inside the same folder as the target spec.
+- Write or update the technical plan in `technical-plan.md` inside the same folder as the target spec.
 
 ## Procedure
 
@@ -27,11 +27,11 @@ Your job is to transform one approved spec into an implementation plan aligned w
 4. Break the work down by backend, frontend, contracts, persistence, integrations, and tests.
 5. Highlight dependencies between the owning backend components, external integrations, and any corresponding frontend.
 6. Produce an execution order that minimizes rework.
-7. Persist the resulting plan in `<spec-folder>/plan-tecnico.md`. If the file already exists, update it instead of creating a duplicate.
+7. Persist the resulting plan in `<spec-folder>/technical-plan.md`. If the file already exists, update it instead of creating a duplicate.
 
 ## Output Format
 
-Persist the plan using this structure in `plan-tecnico.md`:
+Persist the plan using this structure in `technical-plan.md`:
 
 ## Scope
 
@@ -70,8 +70,8 @@ Persist the plan using this structure in `plan-tecnico.md`:
 
 ## Gate
 
-- Result: `PASS` when `plan-tecnico.md` is complete and unblocked; otherwise `BLOCKED`
+- Result: `PASS` when `technical-plan.md` is complete and unblocked; otherwise `BLOCKED`
 - Evidence: ...
 - Next phase: the applicable implementation agent
 
-In your final response, mention the path of the `plan-tecnico.md` file you created or updated and summarize any blockers.
+In your final response, mention the path of the `technical-plan.md` file you created or updated and summarize any blockers.

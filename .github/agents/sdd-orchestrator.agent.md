@@ -24,7 +24,7 @@ Your job is to take a functional request and drive it through the full spec-driv
 ## Available specialized agents
 
 - `@spec-auditor`: audits functional quality of a spec (read, search).
-- `@spec-to-tech-plan`: turns an approved spec into `plan-tecnico.md` (read, search, edit).
+- `@spec-to-tech-plan`: turns an approved spec into `technical-plan.md` (read, search, edit).
 - `@frontend-implementer`: implements frontend code (read, search, edit, execute, todo).
 - `@spec-test-implementer`: adds and validates tests targeting 80% on the touched scope (read, search, edit, execute, todo).
 - `@spec-implementation-reviewer`: reviews the implementation against the spec (read, search, execute).

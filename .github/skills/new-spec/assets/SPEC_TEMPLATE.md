@@ -88,5 +88,5 @@ Scenario: <rule-based rejection>
 
 ## Implementation Notes
 
-> The technical plan for this spec must be saved in the sibling file `plan-tecnico.md` within the same spec folder.
+> The technical plan for this spec must be saved in the sibling file `technical-plan.md` within the same spec folder.
 > This section may remain empty or be removed if the team does not need it.
