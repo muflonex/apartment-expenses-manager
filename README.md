@@ -249,7 +249,7 @@ A specification may contain:
 ```text
 SPEC-<NNN>-<slug>/
 ├── SPEC-<NNN>-<slug>.md
-└── plan-tecnico.md
+└── technical-plan.md
 ```
 
 The specification defines **what the feature must do**.
