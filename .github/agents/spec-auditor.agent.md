@@ -19,7 +19,10 @@ Your only job is to determine whether a spec is clear enough to move to technica
 ## Procedure
 
 1. Resolve the target input. If the user passes a spec folder, locate the main spec Markdown file inside it. If the user passes a spec file, use that file directly.
-2. When useful, compare it against `.github/skills/new-spec/assets/SPEC_TEMPLATE.md` and `sdd/specs/SPEC-001-gestion-libros-biblioteca/SPEC-001-gestion-libros-biblioteca.md`.
+2. When useful, compare the specification against
+   `.github/skills/new-spec/assets/SPEC_TEMPLATE.md` and existing
+   specifications under `sdd/specs/` to verify adherence to repository
+   SDD conventions.
 3. Check that the spec defines actors, preconditions, normal flow, business rules with consequences, states, edge cases, tests, and open questions when information is missing.
 4. Flag ambiguities, contradictions, hidden assumptions, and untestable statements.
 5. Decide whether the spec is ready for `@spec-to-tech-plan` or whether it must go back to refinement.

@@ -24,7 +24,11 @@ Your job is to transform one approved spec into an implementation plan aligned w
 1. Resolve the target input. If the user passes a spec folder, locate the main spec markdown file inside it. If the user passes a spec file, use its parent folder as the working folder.
 2. Read the spec and identify the affected user journey and business rules.
 3. Determine which application, service, frontend, or vertical owns the change.
-4. Break the work down by backend, frontend, contracts, persistence, integrations, and tests.
+4. Break the work down according to the application surfaces actually affected
+by the specification, including frontend, domain logic, data/contracts,
+persistence, integrations, and tests when applicable.
+Do not create sections for architectural layers that do not exist or are not
+affected by the change.
 5. Highlight dependencies between the owning backend components, external integrations, and any corresponding frontend.
 6. Produce an execution order that minimizes rework.
 7. Persist the resulting plan in `<spec-folder>/technical-plan.md`. If the file already exists, update it instead of creating a duplicate.

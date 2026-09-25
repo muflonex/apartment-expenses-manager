@@ -68,10 +68,11 @@ Before considering a task complete, run:
 ```bash
 npm run lint
 npm run test:run
+npm run test:coverage
 npm run build
 ```
 
-A task is not considered complete if the project does not pass these
+A task is not considered complete if the project does not pass any of these
 validation steps, unless the failure is explicitly unrelated to the task.
 
 ## Scope
