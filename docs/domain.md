@@ -16,7 +16,7 @@ The initial model is:
 
 ```js
 {
-  id: 1,
+  id: '550e8400-e29b-41d4-a716-446655440000',
   description: 'Electricity',
   category: 'utilities',
   amount: 82.45,
@@ -30,7 +30,7 @@ The initial model is:
 
 | Field | Type | Rules |
 |---|---|---|
-| id | number | Unique identifier |
+| id | string | Unique identifier |
 | description | string | Human-readable description |
 | category | string | Must be a supported category |
 | amount | number | Must be greater than 0 |

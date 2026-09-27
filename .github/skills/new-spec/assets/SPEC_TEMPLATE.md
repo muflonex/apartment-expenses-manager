@@ -84,6 +84,12 @@ Scenario: <rule-based rejection>
 - [ ] <!-- TODO -->
 - [ ] <!-- TODO -->
 
+## Gate
+
+- Result: BLOCKED
+- Evidence: Awaiting specification audit.
+- Next phase: `@spec-auditor`
+
 ---
 
 ## Implementation Notes

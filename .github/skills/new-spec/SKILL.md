@@ -32,6 +32,10 @@ Do not copy its domain terminology or business rules.
 8. When information is missing, write `TODO` in the affected section and add it to `## Open Questions`.
 9. Ensure that every business rule has a corresponding consequence, that preconditions specify what happens if they fail, and that there are minimum Gherkin scenarios for the happy path and rule-based rejection.
 10. If you detect that an equivalent spec already exists, do not duplicate it: propose updating the existing one.
+11. End the specification with the canonical `## Gate` section:
+  - Result: BLOCKED
+  - Evidence: Specification created and awaiting audit.
+  - Next phase: `@spec-auditor`
 
 ## Quality Bar
 
